@@ -53,12 +53,12 @@ void main() {
 // Initialise function implementation
 void setup() {
     
-    TRISA3 = 0; // Set RB0 pin as output
+    TRISA3 = 0; // Set RA3 pin as output
     TRISB0 = 0; // Set RB0 pin as output
     TRISC1 = 0; // Set RC1 pin as output
-    TRISD0 = 1; // Set RB1 pin as input
-    TRISD2 = 0; // Set RB0 pin as output
-    TRISE0 = 0; // Set RB0 pin as output
+    TRISD0 = 1; // Set RD0 pin as input
+    TRISD2 = 0; // Set RD2 pin as output
+    TRISE0 = 0; // Set RE0 pin as output
     
     PORTA = 0x00; // Initialise PORTA
     PORTB = 0x00; // Initialise PORTB
